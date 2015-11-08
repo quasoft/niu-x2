@@ -2,4 +2,44 @@
  * Define your custom css codes here,
  # they are available to all the templates.
  */
+ body {
+	font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: inherit;
+ }
+ #body-footer{
+	font-size: 0.8em;
+}
  
+ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Vollkorn','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	/*
+    font-weight: 500;
+    line-height: 1.1;
+	*/
+}
+
+.navbar {
+	font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+@media (max-width: 768px) {
+	body {
+		font-size: 14px;
+		line-height: inherit;
+	}
+	
+	.navbar {
+		min-height: 34px;
+		padding-top: 2px;
+	}
+	
+	.niu2-index-article-title {
+		font-size: 22px;
+	}
+	
+	.navbar-brand {
+		padding-left: 0;
+	}
+}

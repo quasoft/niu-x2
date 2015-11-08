@@ -1,6 +1,6 @@
 <div class="niu2-meta-index">
     <span class="niu2-meta-date-index">
-        <i class="icon-calendar"></i>{{ article.date.strftime("%Y-%m-%d") }}
+        <i class="icon-calendar"></i>{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}
     </span>
     <span class="niu2-meta-category-index">
     {%- if NIUX2_CATEGORY_MAP and NIUX2_CATEGORY_MAP[article.category] -%}

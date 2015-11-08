@@ -2,9 +2,7 @@
     <hr/>
 	<p>
 		Powered by <a href="https://github.com/getpelican/pelican">Pelican</a>, 
-		theme built with <a href="http://getbootstrap.com">Bootstrap3</a>
-		by <a href="http://atime.me">Ma Wenbao</a>, icons by 
-		<a href="http://fortawesome.github.io/Font-Awesome">Font Awesome</a>.
+		theme <a href="https://github.com/mawenbao/niu-x2">niu-x2</a> by Ma Wenbao.
 	</p>
 	<p>
 		Copyright
@@ -17,7 +15,7 @@
 		{%- else -%}
 		     2013
 		{%- endif %}
-		<a href="{{ SITEURL }}">{{ AUTHOR | default("") }}</a>
+		<a href="{{ AUTHORURL }}">{{ AUTHOR | default("") }}</a>
 		{% for link in NIUX2_FOOTER_LINKS %}
 			| <i class="{{ link[3] }}"></i>
 			<a href="{{ link[2] }}" title="{{ link[1] }}">{{ link[0] }}</a>

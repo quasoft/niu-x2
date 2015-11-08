@@ -4,6 +4,8 @@
  * @nav-link-padding: 7px
  */
 
+/*.navbar,.navbar-header{min-height: 34px;}*/
+
 i {
     margin-right: 4px;
 }
@@ -165,7 +167,7 @@ img {
 }
 
 .niu2-meta-date-index {
-    font-size: 14px;
+    font-size: 100%;
     margin-right: 10px;
 }
 
@@ -183,7 +185,7 @@ img {
 }
 
 .niu2-index-article-title {
-	font-size: 25px;
+	font-size: 150%;
 }
 
 .niu2-footer {
