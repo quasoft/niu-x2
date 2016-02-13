@@ -1,10 +1,6 @@
 <div class="niu2-footer">
     <hr/>
 	<p>
-		Powered by <a href="https://github.com/getpelican/pelican">Pelican</a>, 
-		theme <a href="https://github.com/mawenbao/niu-x2">niu-x2</a> by Ma Wenbao.
-	</p>
-	<p>
 		Copyright
 		{% if articles[0] -%}
 			{%- if articles[0].date.year == articles[-1].date.year -%}
@@ -20,6 +16,9 @@
 			| <i class="{{ link[3] }}"></i>
 			<a href="{{ link[2] }}" title="{{ link[1] }}">{{ link[0] }}</a>
 		{%- endfor -%}
+		. 
+		Powered by <a href="https://github.com/getpelican/pelican">Pelican</a>, 
+		theme niu-x2 by Ma Wenbao.
     </p>
     <p class="niu2-icons">
 	    {%- for icon in NIUX2_FOOTER_ICONS -%}

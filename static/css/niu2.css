@@ -345,55 +345,54 @@ h4:before, h5:before, h6:before {
 
 @media (max-width: 767px) {
 
-.dropdown-toc > .dropdown-menu > li > a {
-    padding: 5px 10px 5px 10px !important;
-}
+	.dropdown-toc > .dropdown-menu > li > a {
+		padding: 5px 10px 5px 10px !important;
+	}
 
-.niu2-index-date {
-	display: none;
-}
+	.niu2-index-date {
+		display: none;
+	}
 
-#niu2-cse-wrapper {
-    margin-right: 20px;
-    padding-bottom: 10px;
-    width: 140px;
-}
+	#niu2-cse-wrapper {
+		margin-right: 20px;
+		padding-bottom: 10px;
+		width: 140px;
+	}
 
-#niu2-cse-header-box {
-    position: relative;
-    margin-top: 2.5px;
-    margin-left: -8px;
-}
+	#niu2-cse-header-box {
+		position: relative;
+		margin-top: 2.5px;
+		margin-left: -8px;
+	}
 
-#niu2-cse-search-input {
-    width: 150px;
-    position: absolute;
-    margin-left: -3px;
-    margin-top: -12px;
-}
+	#niu2-cse-search-input {
+		width: 150px;
+		position: absolute;
+		margin-left: -3px;
+		margin-top: -12px;
+	}
 
-#niu2-cse-ctrl-box {
-    color: #999;
-    position: absolute;
-    margin-top: -20px;
-    margin-left: 3px;
-}
+	#niu2-cse-ctrl-box {
+		color: #999;
+		position: absolute;
+		margin-top: -20px;
+		margin-left: 3px;
+	}
 
-#niu2-cse-search-text {
-    display: none;
-}
+	#niu2-cse-search-text {
+		display: none;
+	}
 
-.dropdown-toc a {
-    color: #999;
-}
+	.dropdown-toc a {
+		color: #999;
+	}
 
 }
 
 @media (max-height: 300px) {
-/* 2 levels at most */
-.dropdown-toc li li li {
-    display: none !important;
-}
-
+	/* 2 levels at most */
+	.dropdown-toc li li li {
+		display: none !important;
+	}
 }
 

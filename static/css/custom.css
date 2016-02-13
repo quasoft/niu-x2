@@ -3,8 +3,8 @@
  # they are available to all the templates.
  */
  body {
-	font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
-	font-size: 16px;
+	font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
 	line-height: inherit;
  }
  #body-footer{
@@ -12,21 +12,41 @@
 }
  
  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Vollkorn','Helvetica Neue',Helvetica,Arial,sans-serif;
-	font-weight: normal;
 	/*
+    font-family: 'Vollkorn','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: normal;	
+	
     font-weight: 500;
     line-height: 1.1;
 	*/
 }
 
 .navbar {
+/*
 	font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+*/
+}
+
+.navbar-nav > li {
+	padding: 10px;
+	line-height: inherit;
+}
+
+.navbar-header {
+	padding: 10px 10px 10px 0;
+}
+
+.niu2-page, .niu2-content {
+	padding-top: 60px;
+}
+
+.niu2-article {
+    padding-top: 75px;
 }
 
 @media (max-width: 768px) {
 	body {
-		font-size: 14px;
+		font-size: 13px / 1.4;
 		line-height: inherit;
 	}
 	
